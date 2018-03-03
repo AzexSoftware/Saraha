@@ -1,0 +1,138 @@
+/**************************
+    1. Universal Setting
+    2. Navbar
+**************************/
+
+/*************************
+**************************
+    1. Universal Setting
+**************************
+*************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #eee;
+    font-family: "segoe ui";
+}
+.clear {
+    clear: both;
+}
+
+/*************************
+**************************
+    2. Navbar
+**************************
+*************************/
+
+.saraha {
+    background-image: url("../images/two.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 612px;
+}
+
+.nav {
+    background-color: rgba(12, 50, 74, .5);
+    height: 612px;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 60%;
+    float: left;
+    padding-left: 40px;
+    line-height: 50px;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: all .5s ease-in-out;
+}
+
+.blue {
+    color: #19BFB0;
+}
+
+.logo:hover {
+    letter-spacing: 2px;
+}
+
+.list {
+    width: 35%;
+    float: left;
+}
+
+.saraha ul {
+    list-style: none;
+    margin-left: -10px;
+}
+
+.saraha ul li a{
+    float: left;
+    margin-left: 50px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, .6);
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.saraha ul li a:hover {
+    color:  white;
+}
+
+.saraha ul li:first-of-type {
+    margin-left: 0;
+}
+
+.core {
+    line-height: 400px;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    font-family: Arial;
+}
+
+button {
+    display: block;
+    width: 200px;
+    margin: auto;
+    background: none;
+    border: 1px solid #19BFB0;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -75px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:  #19BFB0;
+}
+/*************************
+**************************
+    3. footer
+**************************
+*************************/
+.footer {
+    background-color: #19BFB0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.copy {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}

@@ -1,0 +1,292 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #efeeec;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+/************************************
+*************************************
+    2. Navbar
+*************************************
+*************************************/
+
+.saraha {
+    background-color: #19BFB0;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 60%;
+    float: left;
+    padding-left: 40px;
+    line-height: 50px;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: all .5s ease-in-out;
+}
+
+.logo:hover {
+    letter-spacing: 2px;
+}
+
+.list {
+    width: 35%;
+    float: left;
+}
+
+.saraha ul {
+    list-style: none;
+    margin-left: -10px;
+}
+
+.saraha ul li a{
+    float: left;
+    margin-left: 50px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, .6);
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.saraha a.current,
+.saraha ul li a:hover {color: white;}
+
+.saraha ul li:first-of-type {
+    margin-left: 0;
+}
+
+/* .bar{
+	background-color: #17c5ae;
+	height:36px ;
+	text-align: center;
+	//width: 100%;
+	padding-top: 17px;
+	color: white;
+} */
+img{
+	margin: 0px auto;
+	display: block;
+	padding-top: 26px;
+	margin-top: 32px;
+}
+.body{
+	background-color: white;
+	width: 783px;
+	margin: 0px auto;
+	height: 237px;
+    box-shadow: 0px 0px 4px 0px white, 0px 0px 7px grey;
+}
+.inf,h3{
+	text-align: center;
+	font-weight: normal;
+	padding-top: 5px;
+}
+.web{
+	text-decoration: none;
+	color:  #17c5ae;
+    margin-left: 31%;
+}
+.body1{
+	background-color: white;
+	width: 769px;
+	margin: 20px auto;
+	padding: 0px 7px;
+    box-shadow: 1px 0px 1px 0px white, 1px 0px 5px grey;
+}
+.main2{
+	margin-left: 0px;
+}
+ul li{
+	list-style: none;
+	margin:0px auto;
+
+}
+.sec{
+    color: #17c5ae;
+    float: left;
+    width: 254px;
+    border: solid 1px #17c5ae;
+    text-align: center;
+    height: 32px;
+    padding-top: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+	border-radius: 10px;
+	font-size: 19px;
+}
+.sec:hover{
+	background-color: #17c5ae;
+	color: white;
+}
+h4{
+	font-weight: normal;
+	font-size: 15px;
+	margin:0px 0px;
+	width: 50%;
+}
+.p{
+	font-size: 13px;
+	margin-bottom: 15px;
+	color: gray;
+}
+hr{
+	color: #17c5ae;
+	margin-bottom: 15px;
+
+}
+span{
+	font-weight: bolder;
+}
+.x{
+	position: relative;
+	top: -67px;
+	left: 613px;
+	color: #aaa;
+    font-size: 30px;
+}
+.x:hover {
+	cursor: pointer;
+	color: gray;
+}
+.web:hover{
+  color:gray;
+}
+.two a:hover{
+  color:black;
+}
+.one:hover{
+	letter-spacing: 2px;
+}
+/*************************
+**************************
+    4. footer
+**************************
+*************************/
+.footer {
+    background-color: #19BFB0;
+}
+.copy {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+
+/* Start the message page */
+.body1{
+	background-color: white;
+	margin: 20px auto;
+	padding: 10px 7px;
+
+}
+.body1 h3{
+	font-size: 45px;
+   margin-bottom: 20px;
+   font-family: "segoe ui";
+   font-weight: 100;
+
+}
+.num-msg{
+	color: red;
+	font-size: 20px;
+}
+textarea
+{
+	width: 88%;
+    height: 63px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #19BFB0;
+    margin-top: 20px;
+    display: block;
+    margin: 30px auto;
+    margin-top: -12px;
+    margin-left: 18px;
+}
+input[type="submit"]
+{
+	display: block;
+	width: 52%;
+	height: 36px;
+	font-size: 20px;
+	background-color: none;
+	background-color: white;
+	border: 1px solid #19BFB0;
+	color:#19BFB0;
+	margin-top:3px;
+	display: block;
+	margin: 20px auto;
+}
+input[type="submit"]:hover
+{
+	cursor: pointer;
+	background-color: #19BFB0;
+	color: white;
+}
+.web{
+text-decoration: none;
+color:  #17c5ae;
+margin-left: 36%;
+}
+.inf
+{
+	margin-bottom:2px;
+}
+.username {
+	font-size: 29px;
+	font-weight: bold;
+	color: #797878;
+    text-shadow: 0px 0px 1px #858383;
+}
+.user-msg{
+	border: 1px solid #ccc;
+	border-radius: 10px;
+    margin-bottom: 30px;
+	width: 642px;
+	margin: auto;
+	margin-bottom: 30px;
+    box-shadow: 0px 1px 10px #ccc;
+}
+.user-msg:first-of-type{
+	margin-top: 70px;
+}
+.user-msg h4{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: #eee;
+	width: 86%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    box-shadow: 0px 0px 2px grey inset;
+	font-family: "Segoe ui";
+	font-weight: normal;
+}
+.user-msg h4 .p{
+	font-weight: 500;
+	line-height: 50%;
+}
+.msg_para{
+	font-family: "segoe ui";
+	font-weight: 100;
+	font-size: 23px;
+}
+/* End the message Page */

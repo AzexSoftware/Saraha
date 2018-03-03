@@ -1,0 +1,45 @@
+/* Start Send_msg.msg page */
+.msg {
+    width: 70%;
+    height: 300px;
+    border: 2px solid #19BFB0;
+    margin-top: 20px;
+    background: #fff;
+    margin: 50px auto;
+    border-radius: 3px
+}
+textarea
+{
+    width: 50%;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #19BFB0;
+    margin-top: 20px;
+    display: block;
+    margin: 30px auto;
+}
+input[type="submit"]
+{
+    display: block;
+    width: 20%;
+    height: 36px;
+    font-size: 20px;
+    background-color: none;
+    background-color: white;
+    border: 1px solid #19BFB0;
+    color:#19BFB0;
+    margin-top:3px;
+    display: block;
+    margin: 20px auto;
+}
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background-color: #19BFB0;
+    color: white;
+}
+
+/* End Send_msg.msg page */

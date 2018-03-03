@@ -1,0 +1,254 @@
+/**************************
+    1. Universal Setting
+    2. Navbar
+    3. Footer
+**************************/
+
+/*************************
+**************************
+    1. Universal Setting
+**************************
+*************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #eee;
+    font-family: "segoe ui";
+}
+
+/*************************
+**************************
+    2. Navbar
+**************************
+*************************/
+
+.saraha {
+    background-color: #19BFB0;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 60%;
+    float: left;
+    padding-left: 40px;
+    line-height: 50px;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: all .5s ease-in-out;
+}
+
+.logo:hover {
+    letter-spacing: 2px;
+}
+
+.list {
+    width: 35%;
+    float: left;
+}
+
+.saraha ul {
+    list-style: none;
+    margin-left: -10px;
+}
+
+.saraha ul li a{
+    float: left;
+    margin-left: 50px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, .6);
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.saraha a.current,
+.saraha ul li a:hover {color: white;}
+
+.saraha ul li:first-of-type {
+    margin-left: 0;
+}
+
+/*************************
+**************************
+    3. Registeration Form
+**************************
+*************************/
+.register {
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.register h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.register form {
+    background-color: white;
+    border: 2px solid #777;
+    padding: 30px;
+    width: 650px;
+}
+
+.register form label {
+    width: 25%;
+    float: left;
+    font-size: 20px;
+}
+
+.register form input, select {
+    width: 70%;
+    float: right;
+    height: 36px;
+    font-size: 20px;
+}
+
+.register .holder {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.holder button {
+    display: block;
+    width: 70%;
+    float: right;
+    height: 36px;
+    font-size: 20px;
+    background-color: none;
+    background-color: white;
+    border: 1px solid #19BFB0;
+    color:#19BFB0;
+}
+
+.holder button:hover {
+    cursor: pointer;
+    background-color: #19BFB0;
+    color: white;
+
+}
+
+/*************************
+**************************
+    3. footer
+**************************
+*************************/
+.footer {
+    background-color: #19BFB0;
+}
+.copy {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+/*************************
+**************************
+    4. Name Page
+**************************
+*************************/
+
+.name {
+    width: 70%;
+    height: 200px;
+    border: 2px solid #333;
+    margin-top: 20px;
+    background: #fff;
+    margin: 50px auto;
+}
+input[type="text"]
+{
+    width: 50%;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    display: block;
+    margin: 30px auto;
+}
+input[type="submit"]
+{
+    display: block;
+    width: 52%;
+    height: 36px;
+    font-size: 20px;
+    background-color: none;
+    background-color: white;
+    border: 1px solid #19BFB0;
+    color:#19BFB0;
+    margin-top:3px;
+    display: block;
+    margin: 20px auto;
+}
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background-color: #19BFB0;
+    color: white;
+}
+.msg
+{
+    text-align: center;
+    margin-top : 10px;
+}
+
+/* Start Send_msg.msg page */
+.msg {
+    width: 70%;
+    height: 300px;
+    border: 2px solid #19BFB0;
+    margin-top: 20px;
+    background: #fff;
+    margin: 50px auto;
+    border-radius: 3px
+}
+textarea
+{
+    width: 50%;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #19BFB0;
+    margin-top: 20px;
+    display: block;
+    margin: 30px auto;
+}
+input[name="send"]
+{
+    display: block;
+    width: 20%;
+    height: 36px;
+    font-size: 20px;
+    background-color: none;
+    background-color: white;
+    border: 1px solid #19BFB0;
+    color:#19BFB0;
+    margin-top:3px;
+    display: block;
+    margin: 20px auto;
+}
+input[name="send"]:hover
+{
+    cursor: pointer;
+    background-color: #19BFB0;
+    color: white;
+}
+
+/* End Send_msg.msg page */
